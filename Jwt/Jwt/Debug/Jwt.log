@@ -1,0 +1,18 @@
+﻿  pch.cpp
+  Jwt.cpp
+c:\users\devmachine\desktop\jwt\jwt\jwt\impl\jwt.ipp(72): warning C4101: 'e': unreferenced local variable
+c:\users\devmachine\desktop\jwt\jwt\jwt\impl\jwt.ipp(132): warning C4101: 'e': unreferenced local variable
+c:\users\devmachine\desktop\jwt\jwt\jwt\impl\jwt.ipp(713): warning C4101: 'e': unreferenced local variable
+  c:\users\devmachine\desktop\jwt\jwt\jwt\impl\jwt.ipp(758): note: see reference to function template instantiation 'jwt::jwt_object jwt::decode<std::vector<std::string,std::allocator<_Ty>>,>(const jwt::string_view,const jwt::params::detail::algorithms_param<std::vector<_Ty,std::allocator<_Ty>>> &,std::error_code &)' being compiled
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\users\devmachine\desktop\jwt\jwt\jwt.cpp(18): note: see reference to function template instantiation 'jwt::jwt_object jwt::decode<std::vector<std::string,std::allocator<_Ty>>,>(const jwt::string_view,const jwt::params::detail::algorithms_param<std::vector<_Ty,std::allocator<_Ty>>> &,bool)' being compiled
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtr1common(87): note: see reference to class template instantiation 'std::integral_constant<bool,false>' being compiled
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtr1common(88): note: see reference to class template instantiation 'std::is_same<_Ty1,_Ty2>' being compiled
+  Jwt.vcxproj -> C:\Users\DevMachine\Desktop\Jwt\Debug\Jwt.exe
